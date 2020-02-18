@@ -143,7 +143,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     QObject::connect(ui->actionAbout, &QAction::triggered, [=]() {
         QMessageBox msgBox;
-        msgBox.setText("This project was created by Nedjima Belgacem during SIGA class (geographical information systems course) at ESI-Algiers. I hope it's useful :)");
+        msgBox.setText("This project was created by Nedjima Belgacem during SIGA class (geographical information systems course) at ESI-Algiers. \n\n Github project URL :\n \"https://github.com/NEDJIMAbelgacem/vectorization-tool\"\n\nI hope it's useful :)");
         msgBox.exec();
     });
 }
